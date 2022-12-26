@@ -55,7 +55,7 @@ router.get('/', async function (req, res, next) {
   axios
     .delete('https://jsonplaceholder.typicode.com/posts/1')
     .then(function (response) {
-      res.send('Data Deleted successfully');
+      //res.send('Data Deleted successfully');
     })
     .catch(function (e) {
       console.log(e);
